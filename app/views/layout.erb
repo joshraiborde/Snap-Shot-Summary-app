@@ -18,11 +18,11 @@
     <div class="wrapper">
 
         <div class="nav">
-      <% if logged_in? %>
-        <a href="/">All Posts</a>
-        <a href="/">Create a Post</a>
-        <a href="/logout">Log Out</a>
-      <% end %>
+          <% if logged_in? %>
+        <a href="/posts">All Posts</a>
+        <a href="/posts/new">Create a Post</a>
+        <a href="/logout">Logout</a>
+      <%  end %>
     </div>
 
         <%= yield %>

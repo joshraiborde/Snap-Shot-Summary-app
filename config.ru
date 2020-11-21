@@ -9,5 +9,6 @@ end
 #to send PATCH and DELETE requests
 #'use RACK::MethodOverride'
 use UserController
+use PostsController
 
 run ApplicationController
